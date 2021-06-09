@@ -202,7 +202,7 @@ public class GoldModel extends GameModel {
 
 		// Check if all coins are found
 		if (this.coins.isEmpty()) {
-			throw new GameOverException(this.score + 5);
+			throw new GameOverException(this.score + 3);
 		}
 
 		// Remove one of the coins
